@@ -1,0 +1,54 @@
+.bg_we_zax {
+    /* background:linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url(../../../Image/bg1.png); */
+    background-image: url(../../../Image/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+  
+  .we_zax_heading h1 {
+    color: white;
+    padding-top: 35%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    text-align: start;
+  }
+  .bg_we_zax p {
+    color: white;
+    padding-top: 2%;
+    font-size: 20px;
+    text-align: justify;
+    
+  }
+
+  .inventing_img img{
+    width: 100%;
+    height: auto;
+    padding-top: 50%;
+    padding-bottom: 15%;
+  }
+  
+  @media (max-width: 450px) {
+    .we_zax_heading h1 {
+      /* font-size: 50px; */
+    }
+    .we_zax_heading p {
+      padding-bottom: -50px;
+    }
+    
+  .inventing_img img{
+    margin-top: -20%;
+  }
+  }
+
+  @media (max-width:840px) and (min-width:500px)
+  {
+    .we_zax_heading h1{
+           font-size: 30px;
+           margin-top: -12%;
+    }
+  }
+  

@@ -1,0 +1,19 @@
+.website_price_main{
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.wesbsite_price_child{
+    border: 2px solid rgb(222,190,22);
+    border-radius: 10px;
+}
+.wesbsite_price_child img{
+    width: 40%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.wesbsite_price_child p{
+    color: rgb(222,190,22);
+}
