@@ -19,6 +19,15 @@
   background-size: 100%;
 }
 
+.logo_img{
+
+  width: 10%;
+  height: 7vh;
+  margin-top: -30%;
+  margin-bottom: -30%;
+  margin-left: 3%;
+}
+
 .header_text_resp_one {
   color: white;
   margin-bottom: -10px;
@@ -41,11 +50,31 @@
     margin-bottom: 10px;
     margin-top: 5px;
   }
+
+  .logo_img{
+
+    width: 25%;
+      height: 7vh;
+      margin-top: -30%;
+      margin-bottom: -30%;
+      margin-left: 1%;
+  }
 }
 
+@media (max-width:870px) and (min-width:555px)
+{
+ .logo_img{
+
+   width: 14%;
+   height: 5vh;
+   margin-top: -30%;
+   margin-bottom: -30%;
+   margin-left: 1%;
+ }
+}
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0);
-  border-color: rgb(177, 63, 0);
+  border-color: rgb(39,54,122);
 }
 
 .navbar-light .navbar-toggler-icon {

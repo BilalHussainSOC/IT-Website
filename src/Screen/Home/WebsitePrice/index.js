@@ -22,7 +22,7 @@ const WebsitePrice = () => {
       >
         <h3 style={{ marginBottom: "-4%" }}>Website Development Price</h3>{" "}
         <br></br>
-        <br></br> Start-Up And Bussiness Plain
+        <br></br> Start-Up And Business Plain
       </h1>
       <Grid container className="website_price_main">
         <Grid
@@ -55,7 +55,7 @@ const WebsitePrice = () => {
             integration with social media platforms. This plan includes 1-month
             of support and maintenance after the website launch.
           </p>
-          <Button
+          {/* <Button
             style={{
               textAlign: "end",
               display: "block",
@@ -66,7 +66,7 @@ const WebsitePrice = () => {
             }}
           >
             Request A Quote
-          </Button>
+          </Button> */}
         </Grid>
 
         <Grid
@@ -100,7 +100,7 @@ const WebsitePrice = () => {
             support and maintenance after the website launch. Contact us today
             to discuss your business needs and get started!
           </p>
-          <Button
+          {/* <Button
             style={{
               textAlign: "end",
               display: "block",
@@ -111,7 +111,7 @@ const WebsitePrice = () => {
             }}
           >
             Request A Quote
-          </Button>
+          </Button> */}
         </Grid>
 
         <Grid
@@ -145,7 +145,7 @@ const WebsitePrice = () => {
             includes 3-months of support and maintenance after the website
             launch.
           </p>
-          <Button
+          {/* <Button
             style={{
               textAlign: "end",
               display: "block",
@@ -156,7 +156,7 @@ const WebsitePrice = () => {
             }}
           >
             Request A Quote
-          </Button>
+          </Button> */}
         </Grid>
       </Grid>
 
@@ -204,7 +204,7 @@ const WebsitePrice = () => {
             includes 3-month support and maintenance after the website launch.
             Contact us to get started!
           </p>
-          <Button
+          {/* <Button
             style={{
               textAlign: "end",
               display: "block",
@@ -215,7 +215,7 @@ const WebsitePrice = () => {
             }}
           >
             Request A Quote
-          </Button>
+          </Button> */}
         </Grid>
 
         <Grid
@@ -250,7 +250,7 @@ const WebsitePrice = () => {
             plan includes 5-months of support and maintenance after the website
             launch. Contact us to get started!
           </p>
-          <Button
+          {/* <Button
             style={{
               textAlign: "end",
               display: "block",
@@ -261,7 +261,7 @@ const WebsitePrice = () => {
             }}
           >
             Request A Quote
-          </Button>
+          </Button> */}
         </Grid>
 
         <Grid
@@ -289,7 +289,7 @@ const WebsitePrice = () => {
           >
 Our Multi-Vendor Plan for e-commerce website development is designed for businesses looking to create a marketplace platform. This plan includes features like vendor registration, product management, commission tracking, and payment disbursement. We'll also provide custom development options and advanced marketing integrations. This plan includes 6-months of support and maintenance after the website launch. Contact us to discuss your project needs and get started!
           </p>
-          <Button
+          {/* <Button
             style={{
               textAlign: "end",
               display: "block",
@@ -300,7 +300,7 @@ Our Multi-Vendor Plan for e-commerce website development is designed for busines
             }}
           >
             Request A Quote
-          </Button>
+          </Button> */}
         </Grid>
       </Grid>
     </div>

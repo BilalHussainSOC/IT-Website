@@ -1,5 +1,5 @@
 import Grid from "@mui/material/Grid";
-import img20 from "../../../Image/img20.png";
+import img20 from "../../../Image/IT.png";
 import img21 from '../../../Image/img21.png' 
 import img22 from '../../../Image/img22.png' 
 import img23 from '../../../Image/img23.png' 
@@ -24,7 +24,7 @@ const Industries = () => {
 
       <Grid container className="industries_main">
         <Grid item lg={1} md={0.7} sm={1.5} xs={1.5} className="industries_img">
-          <img src={img20} alt="" />
+          <img src={img20} alt="it" />
           <p className="it_text_mult">
             <b>IT</b>
           </p>
@@ -46,7 +46,8 @@ const Industries = () => {
         <Grid item lg={1} md={0.7} sm={1.5} xs={1.5} className="industries_img">
           <img src={img23} alt="" />
           <p>
-            <b>RESTURENT</b>
+            <b>
+Restaurant</b>
           </p>
         </Grid>
         <Grid item lg={1} md={0.7} sm={1.5} xs={1.5} className="industries_img">

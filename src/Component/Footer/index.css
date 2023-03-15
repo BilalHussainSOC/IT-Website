@@ -37,6 +37,7 @@
 .footer-logo {
   width: 100%;
   height: auto;
+  margin-top: 30%;
 }
 .footer_icon {
   width: 100%;
@@ -47,7 +48,23 @@
    font-family: 'Times New Roman', Times, serif; 
 }
 
-@media (max-width: 500px) {
+.get_text{
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 23px;
+}
+@media (max-width:850px) and (min-width:555px)
+{
+  .get_text{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+  #follow{
+    font-size: 20px;
+  }
+}
+@media (max-width: 550px) {
   #back_to_btn {
     text-align: end;
     display: block;
@@ -57,5 +74,12 @@
   }
   #follow {
     font-size: 17px;
+  }
+  .footer-child-one{
+    margin-top: 10%;
+  }
+  .footer-logo {
+    margin-top: 40%;
+    width: 120%;
   }
 }
